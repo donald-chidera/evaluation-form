@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADUN Course Evaluation Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/complete-check-fb.js" defer></script>
+</head>
+<body>
+    <header>
+        <section class="header-tab">
+            <img src="images/adun-n (1).png" alt="logo" class="logo" width="220" height="120">
+            <button class="menu-button">
+                <div class="menu-icon"></div>
+            </button>
+            <section class="nav-d">
+                <nav>
+                    <ul>
+                        <li><a href="https://adun.edu.ng" target="_blank">Home</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </section>
+        <section class="nav">
+            <nav class="nav-m">
+                <ul>
+                    <li><a href="https://adun.edu.ng" target="_blank">Home</a></li>
+                </ul>
+            </nav>
+        </section>
+        </header>
+        <div class="container">
+            <main class="main">
+                <div class="eval-container">
+                    <h2 class="feedback-ap">Feedback on Assignments and Performance</h2>
+                    <div class="rating-header">
+                      <span>Very Poor</span>
+                      <span>Poor</span>
+                      <span>Fair</span>
+                      <span>Good</span>
+                      <span>Excellent</span>
+                    </div>
+                    <div class="question-container">
+                        <div class="question-row question-row-small-screen">
+                            <span class="question">The instructor provided clear and meaningful feedback on assignments/projects/group work.</span>
+                            <!-- this is for small screens -->
+                            <div class="rating-options">
+                                <span>Very Poor</span>
+                                <input type="radio" id="q1-very-poor" name="q1" value="very-poor">
+                                <span>Poor</span>
+                                <input type="radio" id="q1-poor" name="q1" value="poor">
+                                <span>Fair</span>
+                                <input type="radio" id="q1-fair" name="q1" value="fair">
+                                <span>Good</span>
+                                <input type="radio" id="q1-good" name="q1" value="good">
+                                <span>Excellent</span>
+                                <input type="radio" id="q1-excellent" name="q1" value="excellent">
+                              </div>
+                            <!--  -->
+                            <div class="radio-group">
+                                <input type="radio" id="q1-very-poor" name="q1" value="very-poor">
+                                <input type="radio" id="q1-poor" name="q1" value="poor">
+                                <input type="radio" id="q1-fair" name="q1" value="fair">
+                                <input type="radio" id="q1-good" name="q1" value="good">
+                                <input type="radio" id="q1-excellent" name="q1" value="excellent">
+                            </div>
+                        </div>
+                        <div class="question-row question-row-small-screen">
+                            <span class="question">The instructor clearly articulated the standards of performance.</span>
+                            <!-- this is for small screens -->
+                            <div class="rating-options">
+                                <span>Very Poor</span>
+                                <input type="radio" id="q2-very-poor" name="q2" value="very-poor">
+                                <span>Poor</span>
+                                <input type="radio" id="q2-poor" name="q2" value="poor">
+                                <span>Fair</span>
+                                <input type="radio" id="q2-fair" name="q2" value="fair">
+                                <span>Good</span>
+                                <input type="radio" id="q2-good" name="q2" value="good">
+                                <span>Excellent</span>
+                                <input type="radio" id="q2-excellent" name="q2" value="excellent">
+                              </div>
+                            <!--  -->
+                            <div class="radio-group">
+                                <input type="radio" id="q2-very-poor" name="q2" value="very-poor">
+                                <input type="radio" id="q2-poor" name="q2" value="poor">
+                                <input type="radio" id="q2-fair" name="q2" value="fair">
+                                <input type="radio" id="q2-good" name="q2" value="good">
+                                <input type="radio" id="q2-excellent" name="q2" value="excellent">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="error-message"></div>
+                <div class="buttons">
+                    <button class="btn-back" onclick="document.location='lecturerEvaluation.html'">Go Back</button>
+                    <button class="btn-next" id="next-btn">Continue</button>
+                </div>
+            </main>  
+
+            <footer>
+                <p>&copy; ADUN 2024. All rights reserved. Website designed and developed by Donclinton.</p>
+            </footer>
+        </div>
+</body>
+</html>
